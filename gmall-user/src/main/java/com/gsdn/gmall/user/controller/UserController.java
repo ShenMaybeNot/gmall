@@ -1,13 +1,12 @@
 package com.gsdn.gmall.user.controller;
 
-import com.gsdn.gmall.user.bean.UmsMember;
-import com.gsdn.gmall.user.bean.UmsMemberReceiveAddress;
+import com.gmall.bean.UmsMember;
+import com.gmall.bean.UmsMemberReceiveAddress;
 import com.gsdn.gmall.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import tk.mybatis.mapper.common.Mapper;
 
 import java.util.List;
 
@@ -136,8 +135,8 @@ public class UserController {
     /**
      * 修改/更新user
      */
-    @RequestMapping("updateUser")
-    public String updateUser(UmsMemberReceiveAddress umsMemberReceiveAddress){
+    @RequestMapping("updateReceiveAddress")
+    public String updateReceiveAddress(UmsMemberReceiveAddress umsMemberReceiveAddress){
 
         userService.updateReceiveAddress(umsMemberReceiveAddress);
 

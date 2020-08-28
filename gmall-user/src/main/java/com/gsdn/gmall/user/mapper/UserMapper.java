@@ -1,9 +1,7 @@
 package com.gsdn.gmall.user.mapper;
 
-import com.gsdn.gmall.user.bean.UmsMember;
+import com.gmall.bean.UmsMember;
 import tk.mybatis.mapper.common.Mapper;
-
-import java.util.List;
 
 /**
  * @author shen_i

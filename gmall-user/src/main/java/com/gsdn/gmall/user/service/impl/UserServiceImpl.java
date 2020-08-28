@@ -1,8 +1,9 @@
 package com.gsdn.gmall.user.service.impl;
 
 
-import com.gsdn.gmall.user.bean.UmsMember;
-import com.gsdn.gmall.user.bean.UmsMemberReceiveAddress;
+
+import com.gmall.bean.UmsMember;
+import com.gmall.bean.UmsMemberReceiveAddress;
 import com.gsdn.gmall.user.mapper.UmsMemberReceiveAddressMapper;
 import com.gsdn.gmall.user.mapper.UserMapper;
 import com.gsdn.gmall.user.service.UserService;
